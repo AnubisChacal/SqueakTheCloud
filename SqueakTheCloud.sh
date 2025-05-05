@@ -52,16 +52,3 @@ echo -e "${GREEN}Role IAM: $iam_role${RESET}"
 echo -e "${BLUE}Credenciais IAM para a role $iam_role:${RESET}"
 curl -s -H "X-aws-ec2-metadata-token: $TOKEN" \
   http://169.254.169.254/latest/meta-data/iam/security-credentials/$iam_role
-
-
-
- 
-
-
-
-
- 
- 
-
-  
-    
